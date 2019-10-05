@@ -15,10 +15,21 @@ struct OrderView: View {
             List {
                 Section {
                     ForEach(order.items) { item in
-                        Text(item.name)
+                        HStack {
+                            Text(item.name)
+                            Spacer()
+                            Text("$\(item.price)")
+                        }
+                    }
+                }
+                Section {
+                    NavigationLink(destination: Text("Checkout")) {
+                        Text("Place order")
                     }
                 }
             }
+            .navigationBarTitle("Order")
+            .listStyle(GroupedListStyle())
         }
     }
 }
