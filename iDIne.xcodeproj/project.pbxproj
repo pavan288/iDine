@@ -16,6 +16,7 @@
 		27C75AA82348A52E00400FC8 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C75AA72348A52E00400FC8 /* Helper.swift */; };
 		27C75AAB2348A61600400FC8 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C75AA92348A61600400FC8 /* Menu.swift */; };
 		27C75AAC2348A61600400FC8 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C75AAA2348A61600400FC8 /* Order.swift */; };
+		27C75AAE2348AF0000400FC8 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 27C75AAD2348AF0000400FC8 /* menu.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		27C75AA72348A52E00400FC8 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		27C75AA92348A61600400FC8 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		27C75AAA2348A61600400FC8 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		27C75AAD2348AF0000400FC8 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				27C75A992348A4C200400FC8 /* Assets.xcassets */,
 				27C75A9E2348A4C200400FC8 /* LaunchScreen.storyboard */,
 				27C75AA92348A61600400FC8 /* Menu.swift */,
+				27C75AAD2348AF0000400FC8 /* menu.json */,
 				27C75AAA2348A61600400FC8 /* Order.swift */,
 				27C75AA12348A4C200400FC8 /* Info.plist */,
 				27C75A9B2348A4C200400FC8 /* Preview Content */,
@@ -144,6 +147,7 @@
 			files = (
 				27C75AA02348A4C200400FC8 /* LaunchScreen.storyboard in Resources */,
 				27C75A9D2348A4C200400FC8 /* Preview Assets.xcassets in Resources */,
+				27C75AAE2348AF0000400FC8 /* menu.json in Resources */,
 				27C75A9A2348A4C200400FC8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
